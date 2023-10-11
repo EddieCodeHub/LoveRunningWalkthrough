@@ -2,7 +2,17 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border- box;
+}
+
+/*General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+
 }
 
 /* header */
@@ -13,10 +23,11 @@ header {
 /* main content */
 main {
     background-color: lightblue;
+    /* Make main content fill up surplus space to push footer to the bottom */
+    flex: 1 0 auto;
 }
 
 /* footer */
 footer {
     background-color: orange;
 }
-

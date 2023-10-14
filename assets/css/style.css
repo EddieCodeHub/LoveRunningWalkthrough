@@ -97,6 +97,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* header */
     nav {
         display: block;
@@ -110,7 +111,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -137,3 +138,4 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+

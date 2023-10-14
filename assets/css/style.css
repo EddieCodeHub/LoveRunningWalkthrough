@@ -248,29 +248,31 @@ hr {
 
 /* Media query: desktops or larger */
 
-@media screen and (min-width:1200px) {
-    #benfits {
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #benefits {
         display: flex;
         flex-direction: row;
     }
-    
-    #benefits > div {
+
+    #benefits>div {
         flex: 1;
     }
 
     #benefits-image {
-        order: 0;
+        order: 0
     }
 
     #benefits-mental {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benfits-physical > div {
-        align-self: flex end;
+    #benefits-physical>div {
+        align-self: flex-end;
     }
 }
